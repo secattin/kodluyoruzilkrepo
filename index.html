@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+          background-color: #f1f1f1;
+          padding: 25px;
+          text-align: center;
+        }
+
+        .nav a{
+            padding: 15px 17px;
+            float: left;
+            text-decoration: none;
+            color: white;
+         
+        }
+        .nav{
+            overflow: hidden;
+            background-color: black;
+        }
+        .nav a:hover{
+            background-color:grey ;
+        }
+        .column.on{
+            width: 40%;
+        }
+        .column.gec{
+            width: 50%;
+        }
+        .column.gec{
+            width: 30%;
+        }
+        .column{
+            float: left;
+            padding: 10px;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+            background-color: #f1f1f1;
+            padding: 15px 11px;
+            text-align: center;
+        }
+        @media screen and (max-width:600px){
+            .column.on{
+                width: 100%;
+            }
+            .column.gec{
+                width: 100%;
+            }
+            .column.ilt{
+                width: 100%;
+            }
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>İlk Css Cv Site Örneğim</h1>
+        <p>İlk Çalışmalar Her Zaman Unutulmaz Hatırlanır</p>
+
+    </div>
+    <div class="nav">
+        <a href="file:///C:/Users/erdem/Downloads/Bold+Gray+Professional+Freelance+Software+Engineer+CV++Resume%20(2).pdf">CV Link</a>
+        <a href="https://github.com/secattin">GİTHUP Link</a>
+        <a href="www.linkedin.com/in/secaattin">Linkedin Link</a>
+    </div>
+    <div class="row">
+        <div class="column on">
+        <h1>Ön Yazı</h1>
+         <p>Yeni mezun bir birey olarak, hem teorik bilgilerimi hem de öğrenme isteğimi gerçek dünya deneyimleriyle birleştirmek amacıyla heyecanla bir iş fırsatı arıyorum. Özgün düşünme yeteneğim ve yaratıcı bakış açım ile organizasyonunuza değer katmayı hedefliyorum.</p>
+        </div>
+     <div class="column gec " >
+        <h2>Özgeçmiş</h2>
+        <p>Karadeniz Teknik Üniversitesi ybs bölümünden mezun.agno değeri 2.85 web geliştirme üzerine kendimi geliştirmek üzereyim</p>
+     </div>
+     <div class="column ilt">
+        <h2>İletişim</h2>
+        <address>Telefon:05435118228</address>
+        <address>Mail:esecaattin@gmail.com</address>
+        <Address>Adres:tokat</Address>
+        
+            
+       
+     </div>
+
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+</html>
