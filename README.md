@@ -1,4 +1,4 @@
-#Kodluyoruzilkrepo
+# Kodluyoruzilkrepo
 Kodluyoruz Eğitimi kapsamında açtığım ilk repo içerinde bir adet readme dosyası ve ındex.html barındırıyor
 
 # İnstallation
